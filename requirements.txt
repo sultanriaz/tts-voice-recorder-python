@@ -1,0 +1,18 @@
+# ─────────────────────────────────────────────
+#  TTS & Voice Recorder — dependencies
+#  Install:  pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# ── Text-to-Speech ───────────────────────────
+gTTS>=2.5.1            # Online TTS via Google (English, Urdu, etc.)
+pyttsx3>=2.90          # Offline TTS via system voices
+
+# ── Audio recording & playback ───────────────
+PyAudio>=0.2.14        # Microphone capture + WAV playback
+pygame>=2.5.2          # MP3 + WAV playback (optional but recommended)
+
+# ── Web interface ────────────────────────────
+Flask>=3.0.0           # Web server & REST API
+
+# ── Utilities ────────────────────────────────
+# (standard-library modules used: os, wave, threading, shutil, uuid, argparse)
